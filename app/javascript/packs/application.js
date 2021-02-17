@@ -11,3 +11,9 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+
+document.addEventListener('turbolinks:load', () => {
+  // Call your functions here, e.g:
+
+});
